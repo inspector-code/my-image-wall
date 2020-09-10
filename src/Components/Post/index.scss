@@ -1,0 +1,125 @@
+@import "src/Styles/variables";
+
+.post {
+    background-color: white;
+    border: 1px solid lightgray;
+    font-size: $font-size-sm;
+
+    @media (max-width: 480px) {
+        & {
+            border-left: 0;
+            border-right: 0;
+        }
+    }
+
+    &__header {
+        display: flex;
+        padding: $base*4;
+        font-weight: $font-weight-lg;
+        justify-content: space-between;
+
+        &__left {
+            display: flex;
+            align-items: center;
+
+            &__avatar {
+                margin-right: $base*2;
+            }
+        }
+
+        &__right {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__image {
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        line-height: 0;
+
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__text {
+        padding: $base*5 $base*5;
+
+        &__caption {
+            display: flex;
+
+            &-userName {
+                font-weight: $font-weight-lg;
+            }
+
+            &-captionText {
+                margin-left: $base*2;
+            }
+        }
+
+        &__comments {
+            display: flex;
+            justify-content: space-between;
+            margin-top: $base*3;
+
+            &__left {
+                display: flex;
+                align-items: center;
+
+                &-userName {
+                    font-weight: $font-weight-lg;
+                }
+
+                &-message {
+                    margin-left: $base*2;
+                }
+            }
+
+            &__right {
+                display: flex;
+                align-items: center;
+
+                &-button {
+                    padding: 0;
+                    margin: 0;
+                    line-height: 0;
+                    background: transparent;
+                    border: 0;
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    &__commentBox {
+        display: flex;
+
+        &__input {
+            flex: 1;
+            border: none;
+            padding: $base*3 $base*5;
+            border-top: 1px solid lightgray;
+            outline: none;
+        }
+
+        &__button {
+            cursor: pointer;
+            flex: 0;
+            border: none;
+            color: lightgray;
+            background-color: transparent;
+            border-top: 1px solid lightgray;
+            padding: 0 $base*5;
+
+            &:hover {
+                color: #a8a8a8;
+            }
+
+            &:active {
+                color: #888888;
+            }
+        }
+    }
+}

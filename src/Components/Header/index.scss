@@ -1,0 +1,50 @@
+@import "src/Styles/variables";
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: $color-white;
+  border-bottom: 1px solid $color-gray;
+  object-fit: contain;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 480px) {
+      & {
+        flex-direction: column;
+      }
+    }
+
+    &__logo {
+      display: flex;
+      align-items: center;
+      font-family: $logo-font;
+      font-size: $base*6;
+      line-height: $line-height-lg;
+
+      &-userName {
+        font-size: $base*4;
+        color: $color-red;
+      }
+
+      img {
+        object-fit: contain;
+      }
+    }
+
+    &__buttons-signOut {
+
+    }
+
+    &__buttons-signInOut {
+
+      button + button {
+        margin-left: $base*2;
+      }
+    }
+  }
+}

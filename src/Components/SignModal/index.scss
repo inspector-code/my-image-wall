@@ -1,0 +1,60 @@
+@import "src/Styles/variables";
+
+.modal-logo {
+  font-family: $logo-font;
+  font-size: $base*7;
+  align-self: center;
+  margin: $base*3 0 $base*5;
+}
+
+.modal__sign {
+  display: flex;
+  flex-direction: column;
+
+  & > button {
+    margin-top: $base*5;
+  }
+}
+
+.uploadAvatarForm {
+  margin-top: $base*4;
+  font-family: 'Roboto', sans-serif;
+  color: #A1A1A1;
+  display: flex;
+  align-items: center;
+
+  &__nameButton {
+    display: flex;
+    align-items: center;
+
+    &__imageName {
+      font-family: inherit;
+      color: $color-black;
+      margin-left: $base;
+      //white-space: nowrap;
+      //overflow: hidden;
+      //text-overflow: ellipsis;
+    }
+
+    &__deleteImageButton {
+      padding: 0;
+      margin-left: $base;
+      line-height: 0;
+      background: transparent;
+      border: 0;
+      outline: none;
+
+      &:hover {
+        color: #a8a8a8;
+      }
+
+      &:active {
+        color: #888888;
+      }
+    }
+  }
+
+  &__button {
+    margin-left: $base;
+  }
+}

@@ -1,0 +1,14 @@
+@import "../../Styles/variables";
+
+.noImage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__text {
+    color: #D3D3D3;
+    font-size: $font-size-lg;
+    font-weight: $font-weight-lg;
+  }
+}

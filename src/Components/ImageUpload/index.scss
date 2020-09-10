@@ -1,0 +1,18 @@
+@import "src/Styles/variables";
+
+.imageUpload {
+    display: flex;
+    flex-direction: column;
+    padding: $base*5;
+    outline: none;
+}
+
+.rest {
+    width: 100%;
+}
+
+.imageName {
+    line-height: $line-height-sm;
+    text-align: center;
+    margin-bottom: $base*3;
+}

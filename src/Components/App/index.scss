@@ -1,0 +1,46 @@
+@import "src/Styles/variables";
+
+.image-wall {
+  background-color: $color-light-gray;
+  padding: 0 0 $base*14;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: $base*200;
+  margin: 0 auto;
+  padding: $base*5 $base*5;
+
+  @media (max-width: 480px) {
+    & {
+      padding: $base*5 0 $base*5;
+    }
+  }
+}
+
+.footer {
+  text-align: center;
+  padding-bottom: $base*2;
+  font-family: Roboto, sans-serif;
+  color: $color-gray;
+  font-size: $font-size-sm;
+  background-color: $color-light-gray;
+}
+
+.postEffect-enter {
+  opacity: 0.01;
+}
+
+.postEffect-enter.postEffect-enter-active {
+  opacity: 1;
+  transition: opacity 800ms ease-in;
+}
+
+.postEffect-exit {
+  opacity: 1;
+}
+
+.postEffect-exit.postEffect-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
