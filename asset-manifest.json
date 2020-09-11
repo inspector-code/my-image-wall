@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-image-wall/static/css/main.aafd8057.chunk.css",
+    "main.js": "/my-image-wall/static/js/main.9cc2b783.chunk.js",
+    "main.js.map": "/my-image-wall/static/js/main.9cc2b783.chunk.js.map",
+    "runtime-main.js": "/my-image-wall/static/js/runtime-main.5b51e2b0.js",
+    "runtime-main.js.map": "/my-image-wall/static/js/runtime-main.5b51e2b0.js.map",
+    "static/js/2.0427e9d7.chunk.js": "/my-image-wall/static/js/2.0427e9d7.chunk.js",
+    "static/js/2.0427e9d7.chunk.js.map": "/my-image-wall/static/js/2.0427e9d7.chunk.js.map",
+    "index.html": "/my-image-wall/index.html",
+    "precache-manifest.dde276b7c7bf15bd289b5b824f876a1f.js": "/my-image-wall/precache-manifest.dde276b7c7bf15bd289b5b824f876a1f.js",
+    "service-worker.js": "/my-image-wall/service-worker.js",
+    "static/css/main.aafd8057.chunk.css.map": "/my-image-wall/static/css/main.aafd8057.chunk.css.map",
+    "static/js/2.0427e9d7.chunk.js.LICENSE.txt": "/my-image-wall/static/js/2.0427e9d7.chunk.js.LICENSE.txt",
+    "static/media/loader.svg": "/my-image-wall/static/media/loader.f1e99469.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b51e2b0.js",
+    "static/js/2.0427e9d7.chunk.js",
+    "static/css/main.aafd8057.chunk.css",
+    "static/js/main.9cc2b783.chunk.js"
+  ]
+}
