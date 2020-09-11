@@ -8,7 +8,7 @@ import CSSTransition from 'react-transition-group/CSSTransition'
 import SignModal from '../SignModal'
 import Header from '../Header'
 import NoImage from '../NoImage'
-import Preloader from '../Preloader';
+import Preloader from '../Preloader'
 
 function App() {
     const [posts, setPosts] = useState([])
