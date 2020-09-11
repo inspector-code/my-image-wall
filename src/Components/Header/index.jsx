@@ -12,7 +12,7 @@ function Header({user, setOpenSignIn, setOpen, userDisplayName, loginProgress}) 
                         Фотакарткi<span
                         className='header__content__logo-userName'>
                         {user && !loginProgress ? `@${userDisplayName || user.displayName}` :
-                            !loginProgress && !user && '@not logged'}
+                            !loginProgress && !user && '@не залагінен'}
                     </span>
                     </div>
                     {user && !loginProgress ?
